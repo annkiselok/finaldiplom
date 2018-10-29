@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8f192bc-82b4-4514-af8d-19b1e2478972" name="Default" comment="" />
+    <list default="true" id="f8f192bc-82b4-4514-af8d-19b1e2478972" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg_main.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/bg_main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/botle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/botle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/botls.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/botls.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/car.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cart@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/cart@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/catalog/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/catalog/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/catalog/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/catalog/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/catalog/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/catalog/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/footer_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/footer_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ic-fs.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ic-fs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ic-fs@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ic-fs@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ic-inst.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ic-inst.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ic-inst@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ic-inst@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ic-vk.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ic-vk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ic-vk@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ic-vk@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/molecula.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/molecula.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/norma_ball.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/norma_ball.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/o2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/o2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/Pinskdrev.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/Pinskdrev.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/Pinskdrev@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/Pinskdrev@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/agro.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/agro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/agro@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/agro@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/bch.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/bch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/bch@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/bch@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/beln.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/beln.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/beln@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/beln@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/bgs.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/bgs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/bgs@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/bgs@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/brest_bakaleya.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/brest_bakaleya.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/brest_bakaleya@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/brest_bakaleya@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/bs.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/bs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/bs@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/bs@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/d.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/d@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/d@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/hr_logo_black.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/hr_logo_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/hr_logo_black@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/hr_logo_black@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/idea.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/idea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/idea@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/idea@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/kolor.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/kolor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/kolor@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/kolor@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/kr.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/kr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/kr@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/kr@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/kz.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/kz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/kz@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/kz@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/lokon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/lokon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/lokon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/lokon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/neft.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/neft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/neft@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/neft@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/paritet.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/paritet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/paritet@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/paritet@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/prod.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/prod.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/prod@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/prod@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/prom.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/prom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/prom@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/prom@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/rf.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/rf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/rf@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/rf@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/vtb.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/vtb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/partnes/vtb@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/partnes/vtb@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shevron.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shevron.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/shevron@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/shevron@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/skvag.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/skvag.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/title-botl.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/title-botl.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/user@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/user@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,14 +93,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6072">
-              <caret line="320" column="69" selection-start-line="320" selection-start-column="69" selection-end-line="320" selection-end-column="69" />
+            <state relative-caret-position="-200">
+              <caret line="334" column="30" selection-start-line="334" selection-start-column="30" selection-end-line="334" selection-end-column="30" />
               <folding>
-                <element signature="e#1672#1678#0" expanded="true" />
-                <element signature="e#1684#1690#0" expanded="true" />
+                <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#1882#1888#0" expanded="true" />
+                <element signature="e#1894#1900#0" expanded="true" />
                 <element signature="e#2225#2231#0" expanded="true" />
                 <element signature="e#2263#2269#0" expanded="true" />
                 <element signature="e#2492#2498#0" expanded="true" />
@@ -39,9 +112,7 @@
                 <element signature="e#3170#3176#0" expanded="true" />
                 <element signature="e#3181#3187#0" expanded="true" />
                 <element signature="e#3523#3529#0" expanded="true" />
-                <element signature="e#3585#3591#0" expanded="true" />
                 <element signature="e#3679#3685#0" expanded="true" />
-                <element signature="e#3692#3698#0" expanded="true" />
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -52,10 +123,8 @@
                 <element signature="e#6481#6487#0" expanded="true" />
                 <element signature="e#6491#6497#0" expanded="true" />
                 <element signature="e#6561#6567#0" expanded="true" />
-                <element signature="e#6581#6587#0" expanded="true" />
                 <element signature="e#6608#6614#0" expanded="true" />
                 <element signature="e#6771#6777#0" expanded="true" />
-                <element signature="e#6774#6780#0" expanded="true" />
                 <element signature="e#6851#6857#0" expanded="true" />
                 <element signature="e#6867#6873#0" expanded="true" />
                 <element signature="e#7104#7110#0" expanded="true" />
@@ -70,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="1089" column="5" selection-start-line="1089" selection-start-column="5" selection-end-line="1089" selection-end-column="5" />
+            <state relative-caret-position="423">
+              <caret line="1017" column="29" selection-start-line="1017" selection-start-column="29" selection-end-line="1017" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -90,7 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img</find>
       <find>img-</find>
       <find>info-box</find>
       <find>134</find>
@@ -102,13 +170,38 @@
       <find>part</find>
       <find>car</find>
       <find>.footer__info_item</find>
+      <find>header</find>
+      <find>.b-top</find>
+      <find>height</find>
+      <find>h1</find>
+      <find>upakovka</find>
+      <find>after-h1</find>
+      <find>after-</find>
+      <find>name</find>
+      <find>srcset</find>
+      <find>logo</find>
+      <find>/*</find>
+      <find>&lt;!-</find>
+      <find>btn-</find>
+      <find>.b-about__content .text button</find>
+      <find>br</find>
+      <find>phone</find>
+      <find>b-top__content_text</find>
+      <find>afrer-</find>
+      <find>&lt;br</find>
     </findStrings>
+    <replaceStrings>
+      <replace>pack</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -124,7 +217,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
@@ -134,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,12 +239,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,24 +274,25 @@
       <updated>1540023450861</updated>
       <workItem from="1540023452654" duration="13536000" />
       <workItem from="1540048743469" duration="20203000" />
+      <workItem from="1540837850770" duration="4110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33739000" />
+    <option name="totallyTimeSpent" value="37849000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24391988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -221,11 +316,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="213" column="10" lean-forward="true" selection-start-line="213" selection-start-column="10" selection-end-line="213" selection-end-column="10" />
+        <state relative-caret-position="7360">
+          <caret line="320" column="69" selection-start-line="320" selection-start-column="69" selection-end-line="320" selection-end-column="69" />
           <folding>
-            <element signature="e#1672#1678#0" expanded="true" />
-            <element signature="e#1684#1690#0" expanded="true" />
+            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1882#1888#0" expanded="true" />
+            <element signature="e#1894#1900#0" expanded="true" />
             <element signature="e#2225#2231#0" expanded="true" />
             <element signature="e#2263#2269#0" expanded="true" />
             <element signature="e#2492#2498#0" expanded="true" />
@@ -236,9 +332,7 @@
             <element signature="e#3170#3176#0" expanded="true" />
             <element signature="e#3181#3187#0" expanded="true" />
             <element signature="e#3523#3529#0" expanded="true" />
-            <element signature="e#3585#3591#0" expanded="true" />
             <element signature="e#3679#3685#0" expanded="true" />
-            <element signature="e#3692#3698#0" expanded="true" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -249,10 +343,59 @@
             <element signature="e#6481#6487#0" expanded="true" />
             <element signature="e#6491#6497#0" expanded="true" />
             <element signature="e#6561#6567#0" expanded="true" />
-            <element signature="e#6581#6587#0" expanded="true" />
             <element signature="e#6608#6614#0" expanded="true" />
             <element signature="e#6771#6777#0" expanded="true" />
-            <element signature="e#6774#6780#0" expanded="true" />
+            <element signature="e#6851#6857#0" expanded="true" />
+            <element signature="e#6867#6873#0" expanded="true" />
+            <element signature="e#7104#7110#0" expanded="true" />
+            <element signature="e#7612#7618#0" expanded="true" />
+            <element signature="e#7632#7638#0" expanded="true" />
+            <element signature="e#7645#7651#0" expanded="true" />
+            <element signature="e#7806#7812#0" expanded="true" />
+            <element signature="e#13602#13608#0" expanded="true" />
+            <element signature="e#14026#14032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25047">
+          <caret line="1089" column="5" selection-start-line="1089" selection-start-column="5" selection-end-line="1089" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="213" column="10" lean-forward="true" selection-start-line="213" selection-start-column="10" selection-end-line="213" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1882#1888#0" expanded="true" />
+            <element signature="e#1894#1900#0" expanded="true" />
+            <element signature="e#2225#2231#0" expanded="true" />
+            <element signature="e#2263#2269#0" expanded="true" />
+            <element signature="e#2492#2498#0" expanded="true" />
+            <element signature="e#2534#2540#0" expanded="true" />
+            <element signature="e#2654#2660#0" expanded="true" />
+            <element signature="e#3151#3157#0" expanded="true" />
+            <element signature="e#3162#3168#0" expanded="true" />
+            <element signature="e#3170#3176#0" expanded="true" />
+            <element signature="e#3181#3187#0" expanded="true" />
+            <element signature="e#3523#3529#0" expanded="true" />
+            <element signature="e#3679#3685#0" expanded="true" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#6459#6465#0" expanded="true" />
+            <element signature="e#6481#6487#0" expanded="true" />
+            <element signature="e#6491#6497#0" expanded="true" />
+            <element signature="e#6561#6567#0" expanded="true" />
+            <element signature="e#6608#6614#0" expanded="true" />
+            <element signature="e#6771#6777#0" expanded="true" />
             <element signature="e#6851#6857#0" expanded="true" />
             <element signature="e#6867#6873#0" expanded="true" />
             <element signature="e#7104#7110#0" expanded="true" />
@@ -273,20 +416,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="1089" column="5" selection-start-line="1089" selection-start-column="5" selection-end-line="1089" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6072">
-          <caret line="320" column="69" selection-start-line="320" selection-start-column="69" selection-end-line="320" selection-end-column="69" />
+        <state relative-caret-position="-200">
+          <caret line="334" column="30" selection-start-line="334" selection-start-column="30" selection-end-line="334" selection-end-column="30" />
           <folding>
-            <element signature="e#1672#1678#0" expanded="true" />
-            <element signature="e#1684#1690#0" expanded="true" />
+            <element signature="n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#1882#1888#0" expanded="true" />
+            <element signature="e#1894#1900#0" expanded="true" />
             <element signature="e#2225#2231#0" expanded="true" />
             <element signature="e#2263#2269#0" expanded="true" />
             <element signature="e#2492#2498#0" expanded="true" />
@@ -297,9 +434,7 @@
             <element signature="e#3170#3176#0" expanded="true" />
             <element signature="e#3181#3187#0" expanded="true" />
             <element signature="e#3523#3529#0" expanded="true" />
-            <element signature="e#3585#3591#0" expanded="true" />
             <element signature="e#3679#3685#0" expanded="true" />
-            <element signature="e#3692#3698#0" expanded="true" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" />
@@ -310,10 +445,8 @@
             <element signature="e#6481#6487#0" expanded="true" />
             <element signature="e#6491#6497#0" expanded="true" />
             <element signature="e#6561#6567#0" expanded="true" />
-            <element signature="e#6581#6587#0" expanded="true" />
             <element signature="e#6608#6614#0" expanded="true" />
             <element signature="e#6771#6777#0" expanded="true" />
-            <element signature="e#6774#6780#0" expanded="true" />
             <element signature="e#6851#6857#0" expanded="true" />
             <element signature="e#6867#6873#0" expanded="true" />
             <element signature="e#7104#7110#0" expanded="true" />
@@ -324,6 +457,13 @@
             <element signature="e#13602#13608#0" expanded="true" />
             <element signature="e#14026#14032#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="1017" column="29" selection-start-line="1017" selection-start-column="29" selection-end-line="1017" selection-end-column="29" />
         </state>
       </provider>
     </entry>

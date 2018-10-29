@@ -1,10 +1,3 @@
-/*breakpoins*/
-/*
-mobile < 640
-tab 640 - 1024
-desc > 1024
- */
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic');
@@ -12,7 +5,6 @@ desc > 1024
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 29px;
-    /*font-size: 18px;*/
     font-size: 1.125em;
     color: #003859;
 }
@@ -36,20 +28,25 @@ img {
     max-width: 100%;
 }
 
-h1 {
+h1,
+.h1 {
     font-weight: 600;
-    /*line-height: 114px;*/
-    /*font-size: 70px;*/
     font-size: 3.88em;
     line-height: 1em;
     letter-spacing: 0.2em;
     color: #fff;
 }
 
-h2 {
+.h1 > span.sup,
+h1 > span.sup {
+    vertical-align: sub;
+    font-size: 3rem;
+}
+
+h2,
+.h2 {
     font-weight: bold;
     line-height: normal;
-    /*font-size: 30px;*/
     font-size: 1.66em;
     margin-bottom: 40px;
 }
@@ -61,11 +58,10 @@ ul {
 }
 
 /* header */
-header {
-    position: absolute;
-    top: 0;
+.header {
     width: 100%;
     padding-top: 25px;
+    margin-bottom: 142px;
 }
 
 .header__wrap {
@@ -75,13 +71,9 @@ header {
     background-color: transparent;
 }
 
-header .logo {
 
-}
-
-header .phone {
+.header .phone {
     color: #fff;
-    /*font-size: 14px;*/
     font-size: .77em;
     line-height: 1.3rem;
 
@@ -90,16 +82,20 @@ header .phone {
     margin-top: 10px;
 }
 
-header .phone .phone_num {
+.header .phone .phone_desc {
+    display: inline-block;
+    width: 110px;
+}
+
+.header .phone .phone_num {
     font-weight: bold;
-    /*font-size: 26px;*/
     font-size: 1.44rem;
     position: relative;
     padding-right: 10px;
     margin-bottom: 5px;
 }
 
-header .phone .phone_num:before {
+.header .phone .phone_num:before {
     content: '';
     position: absolute;
     width: 18px;
@@ -107,44 +103,42 @@ header .phone .phone_num:before {
     height: 18px;
     top: 2px;
 
-    /*TODO media retina*/
     background-image: url(../images/shevron.png);
 }
 
-header .menu {
+.header .menu {
     margin-left: 50px;
 }
 
-header .menu ul {
+.header .menu ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     list-style: none;
 }
 
-header .menu ul li {
+.header .menu ul li {
     font-weight: 600;
-    /*font-size: 22px;*/
     font-size: 1.22em;
 }
 
-header .menu ul li:not(:last-child) {
+.header .menu ul li:not(:last-child) {
     margin-right: 60px;
 }
 
-header .menu ul li a {
+.header .menu ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-header .btn-box {
+.header .btn-box {
     display: flex;
     flex-wrap: nowrap;
     width: 190px;
     align-content: flex-start;
 }
 
-header .btn-box a:not(:last-child) {
+.header .btn-box a:not(:last-child) {
     margin-right: 50px;
     margin-top: -10px;
 }
@@ -152,12 +146,11 @@ header .btn-box a:not(:last-child) {
 
     /* top */
 .b-top {
-    padding-top: 253px;
+    padding-bottom: 220px;
     background-image: url(../images/bg_main.png), url(../images/o2.svg);
     background-size: cover, 165px;
     background-repeat: no-repeat;
     background-position: top, 290px 850px;
-    height: 1050px;
 }
 
 .b-top__wrap {
@@ -170,21 +163,24 @@ header .btn-box a:not(:last-child) {
 }
 
 .after-h1 {
+    display: block;
     font-weight: bold;
-    /*line-height: 52px;*/
-    /*font-size: 32px;*/
     font-size: 1.77em;
     line-height: 1.88em;
     color: #FFFFFF;
     margin-bottom: 40px;
 }
 
+.b-top__content_text {
+    width: 70%;
+}
+
 .btn-top {
-    display: block;
-    width: 258px;
+    display: inline-block;
+    min-width: 258px;
+    padding: 0 15px;
     height: 60px;
     font-weight: 600;
-    /*font-size: 26px;*/
     font-size: 1.44em;
     line-height: 55px;
     text-decoration: none;
@@ -210,7 +206,6 @@ header .btn-box a:not(:last-child) {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.13);
     right: 0;
     bottom: 40px;
-    /* font-size: 50px; */
     font-size: 2.77em;
     color: #212E56;
     background-color: #fff;
@@ -221,17 +216,13 @@ header .btn-box a:not(:last-child) {
 
 .b-top__content_img > div > span {
     display: block;
-    /*font-size: 22px;*/
     font-size: 1.22rem;
     margin-top: 5px;
-
 }
-
 
 /* water */
 .b-water {
     padding-top: 50px;
-
     background-image: url(../images/skvag.png),
                         url(../images/molecula.png),
                         url(../images/o2.svg),
@@ -254,7 +245,6 @@ header .btn-box a:not(:last-child) {
     margin: 0 auto 130px;
     font-weight: 600;
     line-height: 33px;
-    /*font-size: 22px;*/
     font-size: 1.222em;
     text-align: center;
 }
@@ -271,20 +261,15 @@ header .btn-box a:not(:last-child) {
     margin-bottom: 170px;
 }
 
-.b-water_upakovka-text {
+.b-water_pack-text {
     flex-wrap: nowrap;
     margin-bottom: 90px;
 }
 
-.b-water_upakovka-text .text {
-
-}
-
-.b-water_upakovka-text .img {
+.b-water_pack-text .img {
     margin-top: -100px;
     margin-right: 70px;
 }
-
 
 .b-water li {
     margin-bottom: 10px;
@@ -315,7 +300,6 @@ header .btn-box a:not(:last-child) {
 
     font-weight: 500;
     line-height: normal;
-    /*font-size: 28px;*/
     font-size: 1.555em;
     line-height: 70px;
     cursor: pointer;
@@ -386,7 +370,7 @@ header .btn-box a:not(:last-child) {
 }
 
 .katalog_item .name {
-    /*font-size: 22px;*/
+    display: block;
     font-size: 1.222em;
     color: #000000;
     margin-bottom: 31px;
@@ -396,7 +380,6 @@ header .btn-box a:not(:last-child) {
 .katalog_item .price {
     text-align: center;
     font-weight: 600;
-    /*font-size: 24px;*/
     font-size: 1.333em;
     color: #000000;
     margin-bottom: 50px;
@@ -404,7 +387,8 @@ header .btn-box a:not(:last-child) {
 
 .katalog_item button {
     text-align: center;
-    width: 209px;
+    min-width: 209px;
+    padding: 0 15px;
     height: 58px;
     background-color: #00408A;
     border-radius: 6px;
@@ -412,7 +396,6 @@ header .btn-box a:not(:last-child) {
     display: block;
     margin: 0 auto 32px;
     cursor: pointer;
-    /*font-size: 24px;*/
     font-size: 1.333em;
     font-family: 'Roboto', sans-serif;
 }
@@ -423,7 +406,6 @@ header .btn-box a:not(:last-child) {
 
 .katalog_item a {
     font-family: 'Montserrat', sans-serif;
-    /*font-size: 14px;*/
     font-size: 0.77em;
     color: #000000;
     text-decoration: none;
@@ -472,7 +454,6 @@ header .btn-box a:not(:last-child) {
 }
 
 .info-box__item h2 {
-    /*font-size: 28px;*/
     font-size: 1.555em;
     text-align: center;
     margin-bottom: 64px;
@@ -496,7 +477,6 @@ header .btn-box a:not(:last-child) {
 }
 
 .info-box__item a {
-    /*font-size: 20px;*/
     font-size: 1.11em;
     color: #FFFFFF;
     text-decoration: none;
@@ -524,8 +504,6 @@ header .btn-box a:not(:last-child) {
     color: #fff;
     padding: 50px 30px 100px 100px;
     margin-right: 40px;
-
-
 }
 
 .info-box__item.service {
@@ -536,7 +514,6 @@ header .btn-box a:not(:last-child) {
     color: #fff;
     padding: 50px 30px 100px 70px;
 }
-
 
 /* about */
 .b-about {
@@ -565,17 +542,16 @@ header .btn-box a:not(:last-child) {
 
 .b-about__content .text p {
     line-height: 33px;
-    /*font-size: 20px;*/
     font-size: 1.11em;
     margin-bottom: 50px;
 }
 
 .b-about__content .text button{
-    width: 189px;
+    min-width: 189px;
+    padding: 0 15px;
     height: 58px;
     font-weight: 600;
     line-height: 26px;
-    /*font-size: 16px;*/
     font-size: .88em;
     color: #FFFFFF;
     background-color: #00408A;
@@ -608,22 +584,17 @@ header .btn-box a:not(:last-child) {
 
 .utp__item_text {
     font-weight: 600;
-    /*font-size: 12px;*/
     font-size: .66em;
     line-height: 1em;
     text-align: center;
     color: #014873;
 }
+
 .utp__item:nth-child(2) .utp__item_text {
-    /*font-size: 14px;*/
     font-size: .77em;
 }
 
 /* etiketka */
-.b-etiketka {
-
-}
-
 .b-etiketka__wrap {
     max-width: 1342px;
 }
@@ -633,13 +604,14 @@ header .btn-box a:not(:last-child) {
 }
 
 .after-text {
+    max-width: 400px;
+    margin: 0 auto;
     text-align: center;
 }
 
 .img-box {
     text-align: center;
 }
-
 
 /* партнеры */
 .b-partners {
@@ -672,10 +644,6 @@ header .btn-box a:not(:last-child) {
 }
 
 /* футер */
-footer {
-    
-}
-
 .footer__info {
     padding-top: 123px;
     padding-bottom: 158px;
@@ -692,18 +660,13 @@ footer {
     justify-content: space-between;
 }
 
-.footer__info_item {}
-
 .footer__info_item-h {
     font-weight: 600;
-    /*font-size: 24px;*/
     font-size: 1.33em;
     margin-bottom: 34px;
 }
 
 .footer__info_item-content {
-    /*line-height: 36px;*/
-    /*font-size: 22px;*/
     line-height: 2em;
     font-size: 1.22em;
 }
@@ -735,7 +698,6 @@ footer {
 
 .footer__bottom .copy {
     align-self: center;
-    /*font-size: 22px;*/
     font-size: 1.22em;
     color: #C4C4C4;
 }
@@ -745,11 +707,9 @@ footer {
     display: inline-block;
 }
 
-
-
 /* media */
 @media (max-width: 1500px) {
-    header .phone {
+    .header .phone {
         margin-left: 10px;
     }
 
@@ -761,7 +721,7 @@ footer {
 }
 
 @media (max-width: 1366px) {
-    header .menu ul li:not(:last-child) {
+    .header .menu ul li:not(:last-child) {
         margin-right: 30px;
     }
 
@@ -798,11 +758,11 @@ footer {
 }
 
 @media (max-width: 1199px) {
-    header .menu {
+    .header .menu {
         display: none;
     }
 
-    header .btn-box a:not(:last-child) {
+    .header .btn-box a:not(:last-child) {
         margin-right: 20px;
     }
 
@@ -814,7 +774,7 @@ footer {
         margin-left: 60px;
     }
 
-    .b-water_upakovka-text .img {
+    .b-water_pack-text .img {
         margin-top: -30px;
     }
 
@@ -917,6 +877,11 @@ footer {
         width: 33%;
     }
 
+
+    .b-partners__item:last-child {
+        margin-right: auto;
+    }
+
     .footer__info_item {
         width: 33%;
     }
@@ -931,12 +896,17 @@ footer {
 }
 
 @media (max-width: 767px) {
-     h1 {
+     .h1, h1 {
          font-size: 2em;
      }
 
-    .b-top {
-        padding-top: 130px;
+    .h1 > span.sup,
+    h1 > span.sup {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        margin-bottom: 50px;
     }
 
     .after-h1 {
@@ -987,11 +957,11 @@ footer {
         margin-bottom: 70px;
     }
 
-    .b-water_upakovka-text {
+    .b-water_pack-text {
         margin-bottom: 70px;
     }
 
-    .b-water_upakovka-text .img {
+    .b-water_pack-text .img {
      display: none;
     }
 
@@ -1044,6 +1014,10 @@ footer {
         margin-bottom: 10px;
     }
 
+    .b-partners__item:last-child {
+        margin-right: initial;
+    }
+
     .footer__info {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -1081,20 +1055,19 @@ footer {
         height: auto;
     }
 
-    header .btn-box a:not(:last-child) {
+    .header .btn-box a:not(:last-child) {
         margin-right: 0;
     }
 
-    header .logo {
+    .header .logo {
         width: 70px;
     }
 
-    header .phone {
+    .header .phone {
         margin: 0;
         width: 150px;
     }
-    header .btn-box {
+    .header .btn-box {
         width: 90px;
     }
 }
-

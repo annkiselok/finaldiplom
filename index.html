@@ -10,43 +10,44 @@
 </head>
 <body>
 
-<header class="">
-    <div class="header__wrap wrap flex">
-        <div class="logo">
-            <img src="images/logo.png" srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="logo">
-        </div>
-
-        <div class="phone">
-            <div class="phone_num">183</div>
-            Единый номер <br> доставки
-        </div>
-
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Вода</a></li>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Сервис</a></li>
-                <li><a href="#">О компании</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
-
-        <div class="btn-box">
-            <a href="#"><img src="images/cart.png" srcset="images/cart.png 1x, images/cart@2x.png 2x" alt="cart"></a>
-            <a href="#"><img src="images/user.png"srcset="images/user.png 1x, images/user@2x.png 2x" alt="user"></a>
-        </div>
-    </div>
-</header>
-
 <section id="b-top" class="b-top">
+    <header class="header">
+        <div class="header__wrap wrap flex">
+            <div class="logo">
+                <a href="/">
+                    <img src="images/logo.png" srcset="images/logo.png 1x, images/logo@2x.png 2x" alt="logo">
+                </a>
+            </div>
+
+            <div class="phone">
+                <div class="phone_num">183</div>
+                <span class="phone_desc">Единый номер доставки</span>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Вода</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-box">
+                <a href="#"><img src="images/cart.png" srcset="images/cart.png 1x, images/cart@2x.png 2x" alt="cart"></a>
+                <a href="#"><img src="images/user.png"srcset="images/user.png 1x, images/user@2x.png 2x" alt="user"></a>
+            </div>
+        </div>
+    </header>
     <div class="b-top__wrap wrap">
         <div class="b-top__content flex">
             <div class="b-top__content_text">
-                <h1>Н<sub>2</sub>ОРМА</h1>
-                <div class="after-h1">
-                    Доставка артезианской питьевой воды <br> обагащенной кислородом в&nbsp;офис и&nbsp;домой
-                </div>
+                <h1>Н<span class="sup">2</span>ОРМА</h1>
+                <span class="after-h1">
+                    Доставка артезианской питьевой воды обагащенной кислородом в&nbsp;офис и&nbsp;домой
+                </span>
                 <a href="#" role="button" class="btn-top">Заказать</a>
             </div>
             <div class="b-top__content_img">
@@ -81,7 +82,7 @@
             </ul>
         </div>
 
-        <div class="b-water_upakovka-text flex">
+        <div class="b-water_pack-text flex">
             <div class="img">
                 <img src="images/botls.png" alt="Бутыли">
             </div>
@@ -110,7 +111,7 @@
                 <div class="img-box">
                     <img src="images/catalog/1.jpg" alt="Ecotronic P5-LXPM (белый)">
                 </div>
-                <div class="name">Ecotronic P5-LXPM (белый)</div>
+                <span class="name">Ecotronic P5-LXPM (белый)</span>
                 <div class="price">650.00 руб</div>
                 <button>Заказать</button>
                 <a href="#">Подробнее</a>
@@ -119,7 +120,7 @@
                 <div class="img-box">
                     <img src="images/catalog/2.jpg" alt="Ecotronic P5-LXPM (белый)">
                 </div>
-                <div class="name">Ecotronic P5-LXPM (белый)</div>
+                <span class="name">Ecotronic P5-LXPM (белый)</span>
                 <div class="price">650.00 руб</div>
                 <button>Заказать</button>
                 <a href="#">Подробнее</a>
@@ -128,7 +129,7 @@
                 <div class="img-box">
                     <img src="images/catalog/3.jpg" alt="Ecotronic P5-LXPM (белый)">
                 </div>
-                <div class="name">Ecotronic P5-LXPM (белый)</div>
+                <span class="name">Ecotronic P5-LXPM (белый)</span>
                 <div class="price">650.00 руб</div>
                 <button>Заказать</button>
                 <a href="#">Подробнее</a>
@@ -137,7 +138,7 @@
                 <div class="img-box">
                     <img src="images/catalog/4.jpg" alt="Ecotronic P5-LXPM (белый)">
                 </div>
-                <div class="name">Ecotronic P5-LXPM (белый)</div>
+                <span class="name">Ecotronic P5-LXPM (белый)</span>
                 <div class="price">650.00 руб</div>
                 <button>Заказать</button>
                 <a href="#">Подробнее</a>
@@ -146,7 +147,7 @@
                 <div class="img-box">
                     <img src="images/catalog/5.jpg" alt="Ecotronic P5-LXPM (белый)">
                 </div>
-                <div class="name">Ecotronic P5-LXPM (белый)</div>
+                <span class="name">Ecotronic P5-LXPM (белый)</span>
                 <div class="price">650.00 руб</div>
                 <button>Заказать</button>
                 <a href="#">Подробнее</a>
@@ -231,7 +232,7 @@
     <div class="b-etiketka__wrap wrap">
         <h2>Фирменные этикетки</h2>
         <div class="after-text">
-            Для клиентов наша компания производит <br> фирменные этикетки.
+            Для клиентов наша компания производит фирменные этикетки.
         </div>
         <div class="img-box">
             <img src="images/botle.jpg" alt="бутылка с этикеткой">
@@ -239,69 +240,68 @@
     </div>
 </section>
 
-<!--TODO srcset-->
 <section id="b-partners" class="b-partners">
     <div class="b-partners__wrap wrap flex">
         <div class="b-partners__item">
-            <img src="images/partnes/beln@2x.png" srcset="images/partnes/beln.png 1x, images/partnes/beln@2x.png 2x" alt="беларусьнефть">
+            <img src="images/partnes/beln.png" srcset="images/partnes/beln.png 1x, images/partnes/beln@2x.png 2x" alt="беларусьнефть">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/bgs@2x.png" srcset="images/partnes/bgs.png 1x, images/partnes/bgs@2x.png 2x" alt="бжс">
+            <img src="images/partnes/bgs.png" srcset="images/partnes/bgs.png 1x, images/partnes/bgs@2x.png 2x" alt="бжс">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/d@2x.png" srcset="images/partnes/d.png 1x, images/partnes/d@2x.png 2x" alt="динамо">
+            <img src="images/partnes/d.png" srcset="images/partnes/d.png 1x, images/partnes/d@2x.png 2x" alt="динамо">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/lokon@2x.png" srcset="images/partnes/lokon.png 1x, images/partnes/lokon@2x.png 2x" alt="локон">
+            <img src="images/partnes/lokon.png" srcset="images/partnes/lokon.png 1x, images/partnes/lokon@2x.png 2x" alt="локон">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/bch@2x.png" srcset="images/partnes/bch.png 1x, images/partnes/bch@2x.png 2x" alt="бч">
+            <img src="images/partnes/bch.png" srcset="images/partnes/bch.png 1x, images/partnes/bch@2x.png 2x" alt="бч">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/vtb@2x.png" srcset="images/partnes/vtb.png 1x, images/partnes/vtb@2x.png 2x" alt="втб">
+            <img src="images/partnes/vtb.png" srcset="images/partnes/vtb.png 1x, images/partnes/vtb@2x.png 2x" alt="втб">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/bs@2x.png" srcset="images/partnes/bs.png 1x, images/partnes/bs@2x.png 2x" alt="белгострах">
+            <img src="images/partnes/bs.png" srcset="images/partnes/bs.png 1x, images/partnes/bs@2x.png 2x" alt="белгострах">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/prom@2x.png" srcset="images/partnes/prom.png 1x, images/partnes/prom@2x.png 2x" alt="промтрансинвест">
+            <img src="images/partnes/prom.png" srcset="images/partnes/prom.png 1x, images/partnes/prom@2x.png 2x" alt="промтрансинвест">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/hr_logo_black@2x.png" srcset="images/partnes/hr_logo_black.png 1x, images/partnes/hr_logo_black@2x.png 2x" alt="торговый дом">
+            <img src="images/partnes/hr_logo_black.png" srcset="images/partnes/hr_logo_black.png 1x, images/partnes/hr_logo_black@2x.png 2x" alt="торговый дом">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/Pinskdrev@2x.png" srcset="images/partnes/Pinskdrev.png 1x, images/partnes/Pinskdrev@2x.png 2x" alt="пинскдрев">
+            <img src="images/partnes/Pinskdrev.png" srcset="images/partnes/Pinskdrev.png 1x, images/partnes/Pinskdrev@2x.png 2x" alt="пинскдрев">
         </div>
 
         <div class="b-partners__item">
-            <img src="images/partnes/kolor@2x.png" srcset="images/partnes/kolor.png 1x, images/partnes/kolor@2x.png 2x" alt="колор">
+            <img src="images/partnes/kolor.png" srcset="images/partnes/kolor.png 1x, images/partnes/kolor@2x.png 2x" alt="колор">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/prod@2x.png" srcset="images/partnes/prod.png 1x, images/partnes/prod@2x.png 2x" alt="продтовары">
+            <img src="images/partnes/prod.png" srcset="images/partnes/prod.png 1x, images/partnes/prod@2x.png 2x" alt="продтовары">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/kr@2x.png" srcset="images/partnes/kr.png 1x, images/partnes/kr@2x.png 2x" alt="корона">
+            <img src="images/partnes/kr.png" srcset="images/partnes/kr.png 1x, images/partnes/kr@2x.png 2x" alt="корона">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/neft@2x.png" srcset="images/partnes/neft.png 1x, images/partnes/neft@2x.png 2x" alt="белнефтестрах">
+            <img src="images/partnes/neft.png" srcset="images/partnes/neft.png 1x, images/partnes/neft@2x.png 2x" alt="белнефтестрах">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/brest_bakaleya@2x.png" srcset="images/partnes/brest_bakaleya.png 1x, images/partnes/brest_bakaleya@2x.png 2x" alt="бакалея">
+            <img src="images/partnes/brest_bakaleya.png" srcset="images/partnes/brest_bakaleya.png 1x, images/partnes/brest_bakaleya@2x.png 2x" alt="бакалея">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/agro@2x.png" srcset="images/partnes/agro.png 1x, images/partnes/agro@2x.png 2x" alt="белагропромбанк">
+            <img src="images/partnes/agro.png" srcset="images/partnes/agro.png 1x, images/partnes/agro@2x.png 2x" alt="белагропромбанк">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/paritet@2x.png" srcset="images/partnes/paritet.png 1x, images/partnes/paritet@2x.png 2x" alt="паритетбанк">
+            <img src="images/partnes/paritet.png" srcset="images/partnes/paritet.png 1x, images/partnes/paritet@2x.png 2x" alt="паритетбанк">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/idea@2x.png" srcset="images/partnes/idea.png 1x, images/partnes/idea@2x.png 2x" alt="ideabank">
+            <img src="images/partnes/idea.png" srcset="images/partnes/idea.png 1x, images/partnes/idea@2x.png 2x" alt="ideabank">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/kz@2x.png" srcset="images/partnes/kz.png 1x, images/partnes/kz@2x.png 2x" alt="казахстан">
+            <img src="images/partnes/kz.png" srcset="images/partnes/kz.png 1x, images/partnes/kz@2x.png 2x" alt="казахстан">
         </div>
         <div class="b-partners__item">
-            <img src="images/partnes/rf@2x.png" srcset="images/partnes/rf.png 1x, images/partnes/rf@2x.png 2x" alt="россия">
+            <img src="images/partnes/rf.png" srcset="images/partnes/rf.png 1x, images/partnes/rf@2x.png 2x" alt="россия">
         </div>
     </div>
 </section>
@@ -313,16 +313,26 @@
                 <div class="footer__info_item">
                     <div class="footer__info_item-h">Доставка в&nbsp;Брестcкой области:</div>
                     <div class="footer__info_item-content">
-                        <a href="tel:+375292244244">+375 (29) 224 42 44</a> (MTC) <br>
-                        <a href="tel:+375296062534">+375 (29) 606 25 34</a> (Velcom)
+                        <div class="footer__info_item-content_element">
+                            <a href="tel:+375292244244">+375 (29) 224 42 44</a> (MTC)
+                        </div>
+                        <div class="footer__info_item-content_element">
+                            <a href="tel:+375296062534">+375 (29) 606 25 34</a> (Velcom)
+                        </div>
                     </div>
                 </div>
                 <div class="footer__info_item">
                     <div class="footer__info_item-h">Доставка в&nbsp;Бресте:</div>
                     <div class="footer__info_item-content">
-                        <a href="tel:183">183</a> (короткий номер) <br>
-                        <a href="tel:+375292337084">+375 (29) 233 70 84</a> (MTC) <br>
-                        <a href="tel:+375293446454">+375 (29) 344 64 54</a> (Velcom)
+                        <div class="footer__info_item-content_element">
+                            <a href="tel:183">183</a> (короткий номер)
+                        </div>
+                        <div class="footer__info_item-content_element">
+                            <a href="tel:+375292337084">+375 (29) 233 70 84</a> (MTC)
+                        </div>
+                        <div class="footer__info_item-content_element">
+                            <a href="tel:+375293446454">+375 (29) 344 64 54</a> (Velcom)
+                        </div>
                     </div>
                 </div>
                 <div class="footer__info_item">
@@ -341,7 +351,9 @@
             <div class="flex">
                 <div class="copy">2008 Аквафортез</div>
                 <div class="logo">
-                    <img src="images/footer_logo.png" alt="лого">
+                    <a href="/">
+                        <img src="images/footer_logo.png" alt="лого">
+                    </a>
                 </div>
                 <div class="soc">
                     <a href="#"><img src="images/ic-vk.png" srcset="images/ic-vk.png 1x, images/ic-vk@2x.png 2x" alt="vk"></a>
